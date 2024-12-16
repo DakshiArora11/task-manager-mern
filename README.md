@@ -14,23 +14,6 @@ Backend: Node.js, Express.js
 Database: MongoDB, Mongoose
 Others: Concurrently (for running frontend and backend together), Dotenv
 
-#### Project Structure
-task-manager-mern/
-├── backend/                 # Backend code
-│   ├── models/              # MongoDB schemas
-│   ├── routes/              # Express routes
-│   ├── controllers/         # Route controllers
-│   ├── index.js             # Entry point for backend server
-│   └── .env                 # Environment variables
-├── frontend/                # Frontend code
-│   ├── src/                 # React components and logic
-│   ├── public/              # Public assets
-│   ├── package.json         # Frontend dependencies
-│   └── README.md            # Frontend-specific instructions
-├── package.json             # Root dependencies for concurrently
-├── README.md                # Project documentation
-└── .gitignore               # Files to ignore in Git
-
 #### Prerequisites
 Before running the application, ensure you have the following installed on your system:
 - Node.js (v14 or later) - Download Node.js
