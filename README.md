@@ -1,4 +1,3 @@
-# task-manager-mern
 **Task Manager MERN Application**
 A simple task management application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks.
 
