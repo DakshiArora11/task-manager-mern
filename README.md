@@ -2,17 +2,17 @@
 A simple task management application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks.
 
 #### Features
-Create a Task: Add a new task with a title and description.
-View Tasks: View a list of all tasks.
-Update a Task: Modify the title or description of an existing task.
-Delete a Task: Remove a task from the list.
-Task Completion: (Optional) Mark a task as completed (can be added as a bonus feature).
+- Create a Task: Add a new task with a title and description.
+- View Tasks: View a list of all tasks.
+- Update a Task: Modify the title or description of an existing task.
+- Delete a Task: Remove a task from the list.
+- Task Completion: (Optional) Mark a task as completed (can be added as a bonus feature).
 
 #### Technologies Used
-Frontend: React, React Router, Axios
-Backend: Node.js, Express.js
-Database: MongoDB, Mongoose
-Others: Concurrently (for running frontend and backend together), Dotenv
+- Frontend: React, React Router, Axios
+- Backend: Node.js, Express.js
+- Database: MongoDB, Mongoose
+- Others: Concurrently (for running frontend and backend together), Dotenv
 
 #### Prerequisites
 Before running the application, ensure you have the following installed on your system:
