@@ -39,28 +39,28 @@ Before running the application, ensure you have the following installed on your 
 - Git - Download Git
 
 # Setup Instructions
-# 1. Clone the Repository
+1. Clone the Repository
 git clone https://github.com/your-username/task-manager-mern.git
 cd task-manager-mern
-# 2. Install Dependencies
+2. Install Dependencies
 Install dependencies for the root project (to run concurrently):
 npm install
 
-# Install dependencies for the backend:
+Install dependencies for the backend:
 cd backend
 npm install
 
-# Install dependencies for the frontend:
+Install dependencies for the frontend:
 cd ../frontend
 npm install
 
-# 3. Configure Environment Variables
+3. Configure Environment Variables
 In the backend/ directory, create a .env file and add the following environment variables:
   MONGODB_URI=mongodb://localhost:27017/taskmanagerdb
   PORT=5000
 -- Replace MONGODB_URI with your MongoDB connection string if you're using a cloud database (e.g., MongoDB Atlas).
 
-# 4. Run the Application
+4. Run the Application
 Start both the backend and frontend together (from the root directory):
 npm start
 This will:
