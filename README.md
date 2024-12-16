@@ -2,20 +2,20 @@
 **Task Manager MERN Application**
 A simple task management application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks.
 
-**Features**
-# Create a Task: Add a new task with a title and description.
-# View Tasks: View a list of all tasks.
-# Update a Task: Modify the title or description of an existing task.
-# Delete a Task: Remove a task from the list.
-# Task Completion: (Optional) Mark a task as completed (can be added as a bonus feature).
+# Features
+Create a Task: Add a new task with a title and description.
+View Tasks: View a list of all tasks.
+Update a Task: Modify the title or description of an existing task.
+Delete a Task: Remove a task from the list.
+Task Completion: (Optional) Mark a task as completed (can be added as a bonus feature).
 
-**Technologies Used**
-**Frontend:** React, React Router, Axios
-**Backend:** Node.js, Express.js
-**Database**: MongoDB, Mongoose
-**Others:** Concurrently (for running frontend and backend together), Dotenv
+# Technologies Used
+Frontend: React, React Router, Axios
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Others: Concurrently (for running frontend and backend together), Dotenv
 
-**Project Structure**
+# Project Structure
 task-manager-mern/
 ├── backend/                 # Backend code
 │   ├── models/              # MongoDB schemas
@@ -32,13 +32,13 @@ task-manager-mern/
 ├── README.md                # Project documentation
 └── .gitignore               # Files to ignore in Git
 
-**Prerequisites**
+# Prerequisites
 Before running the application, ensure you have the following installed on your system:
 - Node.js (v14 or later) - Download Node.js
 - MongoDB (local or cloud) - Download MongoDB
 - Git - Download Git
 
-**Setup Instructions**
+# Setup Instructions
 # 1. Clone the Repository
 git clone https://github.com/your-username/task-manager-mern.git
 cd task-manager-mern
@@ -75,9 +75,9 @@ Alternatively, start each service individually:
   cd frontend
   npm start
 
-**Troubleshooting**(Common Issues)
-**Port Conflict:** If ports 3000 (frontend) or 5000 (backend) are already in use, update the configuration:
-For the backend, change the PORT in the .env file.
-For the frontend, update the proxy setting in frontend/package.json.
-**MongoDB Connection Issues:** Ensure that MongoDB is running locally or that your connection string in .env is correct.
-**Node.js Version:** Ensure you're using Node.js version 14.x, 16.x, or 18.x. Versions 17+ may require the --openssl-legacy-provider flag.
+# Troubleshooting (Common Issues)
+Port Conflict: If ports 3000 (frontend) or 5000 (backend) are already in use, update the configuration:
+  For the backend, change the PORT in the .env file.
+  For the frontend, update the proxy setting in frontend/package.json.
+MongoDB Connection Issues: Ensure that MongoDB is running locally or that your connection string in .env is correct.
+Node.js Version: Ensure you're using Node.js version 14.x, 16.x, or 18.x. Versions 17+ may require the --openssl-legacy-provider flag.
